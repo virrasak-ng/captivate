@@ -1,20 +1,7 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import CustomAppBar from "./component/CustomAppBar";
-import Button from "@mui/material/Button";
-import halfWeb from "../../public/img/halfWeb.png";
 
 export default function Home() {
-  const buttonStyle = {
-    display: "flex",
-    alignItems: "center",
-    gap: "0.5rem",
-    padding: "0.5rem 1rem",
-    border: "1px solid #4AC5DF",
-    borderRadius: "8px",
-    background: "transparent",
-    color: "#11CCA8",
-  };
   return (
     <main className={styles.page}>
       <section className={styles["section-header"]}>
@@ -216,58 +203,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      {/* <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          width: "100%",
-          minHeight: "50vh",
-          justifyContent: "space-between",
-          boxSizing: "border-box",
-          padding: "2rem",
-          alignItems: "center",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "2rem",
-          }}
-        >
-          <div style={{ width: "65%", lineHeight: 1.5 }}>
-            <h1 style={{ fontSize: 36 }}>The perfect presentation</h1>
-          </div>
 
-          <div style={{ width: "65%", lineHeight: 2 }}>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
-              aliquam lectus duis feugiat maecenas penatibus.
-            </span>
-          </div>
-
-          <div
-            style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-          >
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor sit amet</span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor</span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor sit</span>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <img src="/img/WomanSmiling.png" alt="Woman Smiling" />
-        </div>
-      </div> */}
       <div className={styles["presentationContainer"]}>
         <div className={styles["presentationLeft"]}>
           <div className={styles["presentationTitle"]}>
@@ -305,60 +241,6 @@ export default function Home() {
           <img src="/img/WomanSmiling.png" alt="Woman Smiling" />
         </div>
       </div>
-
-      {/* <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          width: "100%",
-          minHeight: "50vh", // Fill full viewport height
-          justifyContent: "space-between",
-          boxSizing: "border-box",
-          padding: "2rem",
-          alignItems: "center",
-          gap: "5rem",
-        }}
-      >
-        <div>
-          <img src="/img/WorkingSpace.png" alt="WorkSpace" />
-        </div>
-
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "2rem",
-          }}
-        >
-          <div style={{ width: "65%", lineHeight: 1.5 }}>
-            <h1 style={{ fontSize: 36 }}>All-in-one platform</h1>
-          </div>
-
-          <div style={{ width: "65%", lineHeight: 2 }}>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
-              aliquam lectus duis feugiat maecenas penatibus.
-            </span>
-          </div>
-
-          <div
-            style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
-          >
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor sit amet</span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor</span>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <img src="/svg/Checkmark.svg" alt="Checkmark" />
-              <span style={{ fontSize: 16 }}>Lorem ipsum dolor sit</span>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className={styles["platform-container"]}>
         <div className={styles["platform-image"]}>
