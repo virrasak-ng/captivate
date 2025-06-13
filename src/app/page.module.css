@@ -619,7 +619,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
+  width: 100%;
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -698,13 +698,13 @@
 
 .others-container {
   display: flex;
-  width: 75%;
+  width: 100%;
   flex-direction: column;
   height: 90%;
 }
 
 .others-logo {
-  align-self: flex-start;
+  margin-left: 9rem;
 }
 
 .others-content {
@@ -713,6 +713,8 @@
   padding: 2rem;
   color: white;
   font-family: sans-serif;
+  width: 100%;
+  justify-content: center;
 }
 
 .others-section {
@@ -760,7 +762,22 @@
   gap: 10px;
 }
 
+.others-main-container {
+  width: 100%;
+}
+
+.testimonial-main-container {
+  width: 100%;
+}
+
+.footer-main {
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
+  .others-logo {
+    margin-left: 5rem;
+  }
   .others-columns {
     gap: 5rem;
   }
@@ -768,7 +785,7 @@
     gap: 15%;
   }
   .others-container {
-    width: 90%;
+    width: 100%;
   }
   .get-started-paragraph {
     font-size: 14px;
@@ -777,7 +794,7 @@
     font-size: 48px;
   }
   .get-started-container {
-    width: 90%;
+    width: 100%;
   }
   .testimonial-author {
     font-size: 14px;
@@ -961,7 +978,11 @@
   .footer-main {
     width: 70%;
   }
+  .others-logo {
+    margin-left: 2rem;
+  }
   .others-content {
+    width: 80%;
     gap: 10%;
   }
   .others-columns {
@@ -969,6 +990,9 @@
   }
   .others-main-container {
     width: 100%;
+  }
+  .others-container {
+    width: 90%;
   }
   .get-started-heading {
     font-size: 44px;
