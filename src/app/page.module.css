@@ -365,7 +365,6 @@
 
 .button-container {
   display: inline-flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   gap: 1rem;
   width: 100%;
@@ -944,20 +943,140 @@
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .footer-content p {
+    margin-top: 10px;
+  }
+  .footer-icons {
+    margin-top: 10px;
+  }
+  .footer {
+    border-top: none;
+  }
+  .footer-content {
+    justify-content: flex-start;
+    border-top: 1px solid #2c373b;
+    gap: 40%;
+  }
+  .footer-main {
+    width: 70%;
+  }
+  .others-content {
+    gap: 10%;
+  }
+  .others-columns {
+    gap: 2rem;
+  }
+  .others-main-container {
+    width: 100%;
+  }
+  .get-started-heading {
+    font-size: 44px;
+  }
+  .get-started-container {
+    width: 70%;
+  }
+  .get-started-main-container {
+    width: 100%;
+  }
+  .testimonial-text {
+    font-size: 24px;
+  }
+  .testimonial-container {
+    width: 70%;
+  }
+  .testimonial-main-container {
+    width: 100%;
+  }
+  .faq-main-container {
+    width: 100%;
+  }
+  .faq-title {
+    font-size: 48px;
+    text-align: center;
+  }
+  .faq-container {
+    width: 70%;
+    justify-content: center;
+  }
+  .pricing-card-button {
+    padding: 0.5rem 1rem;
+  }
+  .pricing-card-feature span {
+    font-size: 12px;
+  }
+  .pricing-card-included-label {
+    font-size: 14px;
+  }
+  .pricing-card-description {
+    font-size: 14px;
+  }
+  .pricing-card-title {
+    font-size: 24px;
+  }
+  .pricing-card {
+    width: 35%;
+  }
+  .pricing-header-container {
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .platform-container {
+    gap: 3rem;
+  }
+  .platform-heading h1 {
+    font-size: 24px !important;
+  }
+  .platform-image img {
+    width: 250px;
+  }
+  .presentationImage img {
+    width: 250px;
+  }
+  .presentationContainer {
+    justify-content: flex-start;
+  }
+  .presentationHeading {
+    font-size: 24px;
+  }
+  .button-wrapper-main {
+    width: 100%;
+  }
+  .button-wrapper {
+    width: 75%;
+  }
+
+  .feature-card {
+    width: 32%;
+    height: auto;
+  }
+  .template-container {
+    width: 70%;
+  }
+  .right-card {
+    width: 33%;
+    height: 400px;
+    min-height: 400px;
+  }
+  .right-card-content {
+    gap: 2rem;
+  }
+  .right-card-block {
+    gap: 1rem;
+  }
   .right-card h1,
   .left-card h1 {
     font-size: 24px;
   }
   .branding-img {
-    width: 250px;
+    width: 200px;
   }
   .features-content {
     gap: 2rem;
   }
   .left-card {
     height: 400px;
-    width: 30%;
+    width: 33%;
   }
   .features-header {
     justify-content: flex-start;
@@ -972,7 +1091,7 @@
     font-size: 24px;
   }
   .app-header {
-    width: 50%;
+    width: 70%;
   }
 
   .captivate-logo {
@@ -995,7 +1114,7 @@
   }
 
   .presentation-button {
-    width: 50%;
+    width: 75%;
   }
 
   .presentation-image {
@@ -1004,7 +1123,7 @@
   }
 
   .presentation-wrapper {
-    gap: 4%;
+    gap: 15%;
   }
 
   .logo-row img {
@@ -1014,4 +1133,4 @@
   .logo-row {
     gap: 1.25rem;
   }
-} */
+}

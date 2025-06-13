@@ -127,7 +127,6 @@ export default function Home() {
         </div>
       </div>
       <div className={styles["feature-container"]}>
-        {/* Livestream Card */}
         <div className={styles["feature-card"]}>
           <div className={styles["feature-img-right"]}>
             <img src="/img/livestream.png" alt="Livestream" />
@@ -143,7 +142,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Analytics Card */}
         <div className={styles["feature-card"]}>
           <div className={styles["feature-content-right"]}>
             <button className={styles["gradient-button"]}>ANALYTICS</button>
@@ -159,48 +157,50 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles["button-wrapper"]}>
-        <div className={styles["button-container"]}>
-          <button className={styles["custom-button"]}>
-            <img
-              src="/svg/Magnet.svg"
-              alt="magnet"
-              className={styles["button-icon"]}
-            />
-            Pitch Decks
-          </button>
-          <button className={styles["custom-button"]}>
-            <img
-              src="/svg/Bank.svg"
-              alt="Bank"
-              className={styles["button-icon"]}
-            />
-            Financial Reports
-          </button>
-          <button className={styles["custom-button"]}>
-            <img
-              src="/svg/Presentation.svg"
-              alt="Presentation"
-              className={styles["button-icon"]}
-            />
-            Presentation Decks
-          </button>
-          <button className={styles["custom-button"]}>
-            <img
-              src="/svg/ThunderBolt.svg"
-              alt="ThunderBolt"
-              className={styles["button-icon"]}
-            />
-            Earnings
-          </button>
-          <button className={styles["custom-button"]}>
-            <img
-              src="/svg/Webinar.svg"
-              alt="Webinar"
-              className={styles["button-icon"]}
-            />
-            Webinars
-          </button>
+      <div className={styles["button-wrapper-main"]}>
+        <div className={styles["button-wrapper"]}>
+          <div className={styles["button-container"]}>
+            <button className={styles["custom-button"]}>
+              <img
+                src="/svg/Magnet.svg"
+                alt="magnet"
+                className={styles["button-icon"]}
+              />
+              Pitch Decks
+            </button>
+            <button className={styles["custom-button"]}>
+              <img
+                src="/svg/Bank.svg"
+                alt="Bank"
+                className={styles["button-icon"]}
+              />
+              Financial Reports
+            </button>
+            <button className={styles["custom-button"]}>
+              <img
+                src="/svg/Presentation.svg"
+                alt="Presentation"
+                className={styles["button-icon"]}
+              />
+              Presentation Decks
+            </button>
+            <button className={styles["custom-button"]}>
+              <img
+                src="/svg/ThunderBolt.svg"
+                alt="ThunderBolt"
+                className={styles["button-icon"]}
+              />
+              Earnings
+            </button>
+            <button className={styles["custom-button"]}>
+              <img
+                src="/svg/Webinar.svg"
+                alt="Webinar"
+                className={styles["button-icon"]}
+              />
+              Webinars
+            </button>
+          </div>
         </div>
       </div>
 
@@ -371,103 +371,111 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles["faq-container"]}>
-        <h1 className={styles["faq-title"]}>Frequent question</h1>
+      <div className={styles["faq-main-container"]}>
+        <div className={styles["faq-container"]}>
+          <h1 className={styles["faq-title"]}>Frequent question</h1>
 
-        {[
-          "Is Captivate easy to use for a beginner?",
-          "How is it different than PowerPoint?",
-          "How much does it cost to use Captivate?",
-          "Is Captivate right for my team?",
-          "How do I add members to our plan?",
-          "How do I contact support?",
-        ].map((question, index) => (
-          <div className={styles["faq-item"]} key={index}>
-            <h3>{question}</h3>
+          {[
+            "Is Captivate easy to use for a beginner?",
+            "How is it different than PowerPoint?",
+            "How much does it cost to use Captivate?",
+            "Is Captivate right for my team?",
+            "How do I add members to our plan?",
+            "How do I contact support?",
+          ].map((question, index) => (
+            <div className={styles["faq-item"]} key={index}>
+              <h3>{question}</h3>
+              <img
+                src="/svg/PlusIcon.svg"
+                alt="Plus Icon"
+                className={styles["faq-icon"]}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className={styles["testimonial-main-container"]}>
+        <div className={styles["testimonial-container"]}>
+          <div>
             <img
-              src="/svg/PlusIcon.svg"
-              alt="Plus Icon"
-              className={styles["faq-icon"]}
+              className={styles["testimonial-logo"]}
+              src="/svg/ApertureLogo.svg"
+              alt="Aperture Logo"
             />
           </div>
-        ))}
-      </div>
 
-      <div className={styles["testimonial-container"]}>
-        <div>
-          <img
-            className={styles["testimonial-logo"]}
-            src="/svg/ApertureLogo.svg"
-            alt="Aperture Logo"
-          />
-        </div>
-
-        <div>
-          <h3 className={styles["testimonial-text"]}>
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
-            mauris, libero tellus nec tortor libero arcu, sapien. Venenatis sit
-            morbi ac amet amet.”
-          </h3>
-        </div>
-
-        <div>
-          <span className={styles["testimonial-author"]}>
-            Mikayla Smith, Marketing Director
-          </span>
-        </div>
-      </div>
-
-      <div className={styles["get-started-container"]}>
-        <h1 className={styles["get-started-heading"]}>Get started today</h1>
-
-        <p className={styles["get-started-paragraph"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et
-          netus enim pellentesque pharetra semper at faucibus neque ac
-          suspendisse.
-        </p>
-
-        <div className={styles["get-started-form"]}>
-          <input
-            className={styles["get-started-input"]}
-            type="email"
-            placeholder="Email address"
-          />
-          <button className={styles["get-started-button"]}>Sign up</button>
-        </div>
-      </div>
-
-      <div className={styles["others-container"]}>
-        <div className={styles["others-logo"]}>
-          <img src="/svg/CaptivateLogo.svg" alt="Captivate Logo" />
-        </div>
-
-        <div className={styles["others-content"]}>
-          <div className={styles["others-section"]}>
-            <h4 className={styles["others-heading"]}>LANDING PAGES</h4>
-            <div className={styles["others-columns"]}>
-              <div className={styles["others-column"]}>
-                <span>Landing page V1</span>
-                <span>Landing page V2</span>
-                <span>Landing page V3</span>
-              </div>
-              <div className={styles["others-column"]}>
-                <span>Landing page V4</span>
-                <span>Landing page V5</span>
-              </div>
-            </div>
+          <div>
+            <h3 className={styles["testimonial-text"]}>
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
+              mauris, libero tellus nec tortor libero arcu, sapien. Venenatis
+              sit morbi ac amet amet.”
+            </h3>
           </div>
 
-          <div className={styles["others-section"]}>
-            <h4 className={styles["others-heading"]}>UTILITY PAGES</h4>
-            <div className={styles["others-columns"]}>
-              <div className={styles["others-column"]}>
-                <span>Log in</span>
-                <span>Sign up</span>
-                <span>Privacy policy</span>
+          <div>
+            <span className={styles["testimonial-author"]}>
+              Mikayla Smith, Marketing Director
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles["get-started-main-container"]}>
+        <div className={styles["get-started-container"]}>
+          <h1 className={styles["get-started-heading"]}>Get started today</h1>
+
+          <p className={styles["get-started-paragraph"]}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et
+            netus enim pellentesque pharetra semper at faucibus neque ac
+            suspendisse.
+          </p>
+
+          <div className={styles["get-started-form"]}>
+            <input
+              className={styles["get-started-input"]}
+              type="email"
+              placeholder="Email address"
+            />
+            <button className={styles["get-started-button"]}>Sign up</button>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles["others-main-container"]}>
+        <div className={styles["others-container"]}>
+          <div className={styles["others-logo"]}>
+            <img src="/svg/CaptivateLogo.svg" alt="Captivate Logo" />
+          </div>
+
+          <div className={styles["others-content"]}>
+            <div className={styles["others-section"]}>
+              <h4 className={styles["others-heading"]}>LANDING PAGES</h4>
+              <div className={styles["others-columns"]}>
+                <div className={styles["others-column"]}>
+                  <span>Landing page V1</span>
+                  <span>Landing page V2</span>
+                  <span>Landing page V3</span>
+                </div>
+                <div className={styles["others-column"]}>
+                  <span>Landing page V4</span>
+                  <span>Landing page V5</span>
+                </div>
               </div>
-              <div className={styles["others-column"]}>
-                <span>Password</span>
-                <span>404</span>
+            </div>
+
+            <div className={styles["others-section"]}>
+              <h4 className={styles["others-heading"]}>UTILITY PAGES</h4>
+              <div className={styles["others-columns"]}>
+                <div className={styles["others-column"]}>
+                  <span>Log in</span>
+                  <span>Sign up</span>
+                  <span>Privacy policy</span>
+                </div>
+                <div className={styles["others-column"]}>
+                  <span>Password</span>
+                  <span>404</span>
+                </div>
               </div>
             </div>
           </div>
@@ -475,14 +483,16 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <div className={styles["footer-content"]}>
-          <div className={styles["footer-icons"]}>
-            <img src="/svg/Facebook.svg" alt="facebook" />
-            <img src="/svg/Twiter.svg" alt="twiter" />
-            <img src="/svg/Instagram.svg" alt="instagram" />
-            <img src="/svg/LinkedIn.svg" alt="LinkedIn" />
+        <div className={styles["footer-main"]}>
+          <div className={styles["footer-content"]}>
+            <div className={styles["footer-icons"]}>
+              <img src="/svg/Facebook.svg" alt="facebook" />
+              <img src="/svg/Twiter.svg" alt="twiter" />
+              <img src="/svg/Instagram.svg" alt="instagram" />
+              <img src="/svg/LinkedIn.svg" alt="LinkedIn" />
+            </div>
+            <p>© 2025. All Rights Reserved.</p>
           </div>
-          <p>© 2025. All Rights Reserved.</p>
         </div>
       </footer>
     </main>
