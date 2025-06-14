@@ -14,6 +14,7 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  background-color: #0a0a0a;
 }
 
 .section-header {
@@ -96,11 +97,13 @@
   font-size: 72px;
   margin: 0;
   line-height: 1.2;
+  color: white;
 }
 
 .presentation-description {
   font-size: 18px;
   line-height: 1.6;
+  color: white;
 }
 
 .presentation-button {
@@ -150,11 +153,13 @@
   font-size: 72px;
   margin: 0;
   line-height: 1.2;
+  color: white;
 }
 
 .features-header span {
   font-size: 18px;
   line-height: 1.6;
+  color: white;
 }
 
 .features-content {
@@ -193,6 +198,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  color: white;
 }
 
 .right-card {
@@ -225,16 +231,19 @@
   border: none;
   color: white;
   cursor: pointer;
+  width: 30%;
 }
 
 .right-card h1,
 .left-card h1 {
   font-size: 36px;
+  color: white;
 }
 
 .right-card span,
 .left-card span {
   font-size: 18px;
+  color: white;
 }
 
 .template-container {
@@ -418,11 +427,13 @@
 
 .presentationHeading {
   font-size: 36px;
+  color: white;
 }
 
 .presentationDescription {
   width: 65%;
   line-height: 2;
+  color: white;
 }
 
 .checkList {
@@ -439,6 +450,7 @@
 
 .checkText {
   font-size: 16px;
+  color: white;
 }
 
 .presentationImage {
@@ -467,11 +479,13 @@
 .platform-heading {
   width: 65%;
   line-height: 1.5;
+  color: white;
 }
 
 .platform-subtext {
   width: 65%;
   line-height: 2;
+  color: white;
 }
 
 .platform-checklist {
@@ -488,6 +502,7 @@
 
 .check-item span {
   font-size: 16px;
+  color: white;
 }
 
 .pricing-header-container {
@@ -502,11 +517,13 @@
   font-size: 72px;
   margin: 0;
   line-height: 1.2;
+  color: white;
 }
 
 .pricing-description {
   font-size: 18px;
   line-height: 1.6;
+  color: white;
 }
 
 .pricing-card-container {
@@ -535,6 +552,7 @@
 
 .pricing-card-title {
   font-size: 44px;
+  color: white;
 }
 
 .pricing-card-price-row {
@@ -551,16 +569,19 @@
 
 .pricing-card-month {
   font-size: 16px;
+  color: white;
   padding-top: 15px;
 }
 
 .pricing-card-description {
   font-size: 16px;
+  color: white;
   line-height: 1.6;
 }
 
 .pricing-card-included-label {
   font-size: 16px;
+  color: white;
 }
 
 .pricing-card-feature {
@@ -571,6 +592,7 @@
 
 .pricing-card-feature span {
   font-size: 16px;
+  color: white;
 }
 
 .pricing-card-feature img.low-opacity {
@@ -599,6 +621,7 @@
 .faq-title {
   font-size: 72px;
   line-height: 1.2;
+  color: white;
 }
 
 .faq-item {
@@ -632,6 +655,7 @@
   text-align: center;
   line-height: 1.6;
   font-size: 32px;
+  color: white;
 }
 
 .testimonial-author {
@@ -663,6 +687,7 @@
   margin-bottom: 2rem;
   font-size: 18px;
   line-height: 1.5;
+  color: white;
 }
 
 .get-started-form {
@@ -727,6 +752,7 @@
   color: #11cca8;
   font-size: 0.75rem;
   letter-spacing: 1px;
+  color: white;
 }
 
 .others-columns {
