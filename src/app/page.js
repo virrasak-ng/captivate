@@ -7,6 +7,7 @@ export default function Home() {
       <section className={styles["section-header"]}>
         <CustomAppBar />
       </section>
+
       <div className={styles["presentation-wrapper"]}>
         <div className={styles["beautiful-presentation"]}>
           <h1 className={styles["presentation-title"]}>
@@ -27,6 +28,7 @@ export default function Home() {
           className={styles["presentation-image"]}
         />
       </div>
+
       <div className={styles["logo-row"]}>
         <img src="/svg/ApertureLogo.svg" alt="Aperture Logo" />
         <img src="/svg/NorthStarLogo.svg" alt="NorthStar Logo" />
@@ -34,6 +36,7 @@ export default function Home() {
         <img src="/svg/TransferMediaLogo.svg" alt="Transfer Media Logo" />
         <img src="/svg/CubicLogo.svg" alt="Cubic Logo" />
       </div>
+
       <div className={styles["features-section"]}>
         <div className={styles["features-header"]}>
           <div>
@@ -95,6 +98,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div>
         <div className={styles["template-container"]}>
           <div className={styles["template-content"]}>
@@ -126,6 +130,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className={styles["feature-container"]}>
         <div className={styles["feature-card"]}>
           <div className={styles["feature-img-right"]}>
@@ -157,6 +162,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className={styles["button-wrapper-main"]}>
         <div className={styles["button-wrapper"]}>
           <div className={styles["button-container"]}>
